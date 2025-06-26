@@ -152,10 +152,6 @@ spendwise/
 ### Export
 - `GET /api/export` - Export expenses to CSV
 
-## 🎨 Customization
-
-- Dark mode feature for user experience.
-- Export to excel for advanced filters or applying any function on particular data.
 
 ### Expense
 ```javascript
@@ -177,7 +173,7 @@ The application uses Morgan middleware for comprehensive request logging:
 - Combined log format includes IP, timestamp, method, URL, status, and user agent
 - Automatic log file creation and management
 
-## 🚀 Deployment
+
 
 ### Backend Deployment
 1. Set up MongoDB Atlas or your preferred database
