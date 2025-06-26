@@ -154,16 +154,8 @@ spendwise/
 
 ## 🎨 Customization
 
-### Adding New Categories
-Categories are dynamically created when adding expenses. Simply enter a new category name when creating an expense.
-
-### Modifying Charts
-Charts are built using Recharts. You can customize colors, add new chart types, or modify existing visualizations in the `Charts.jsx` component.
-
-### Theme Customization
-Modify CSS variables in `theme.css` to customize colors, spacing, and other design elements for both light and dark themes.
-
-## 📊 Data Models
+- Dark mode feature for user experience.
+- Export to excel for advanced filters or applying any function on particular data.
 
 ### Expense
 ```javascript
@@ -176,13 +168,6 @@ Modify CSS variables in `theme.css` to customize colors, spacing, and other desi
   updatedAt: Date
 }
 ```
-
-## 🔒 Security Features
-
-- Input validation and sanitization
-- Morgan middleware for request logging
-- Error handling and user feedback
-- Secure API endpoints
 
 ## 📝 Logging
 
@@ -203,38 +188,3 @@ The application uses Morgan middleware for comprehensive request logging:
 1. Build the React app: `npm run build`
 2. Deploy to platforms like Netlify, Vercel, or GitHub Pages
 3. Update API URL in environment variables
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the ISC License.
-
-## 🐛 Known Issues
-
-- Large datasets may affect chart performance
-- CSV export includes all data (no filtering options yet)
-
-## 🔮 Future Enhancements
-
-- [ ] Multi-user support with authentication
-- [ ] Receipt image uploads
-- [ ] Recurring expense templates
-- [ ] Advanced filtering and search
-- [ ] Mobile app version
-- [ ] Integration with banking APIs
-- [ ] Log file rotation and archiving
-
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
-
----
-
-**Built with ❤️ using React, Node.js, MongoDB, and Morgan**
